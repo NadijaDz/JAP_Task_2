@@ -123,9 +123,7 @@ namespace NormativeCalculator.Services
                         {
                             Recipe_Id = entity.Id,
                             Ingredient_Id = ingredient.Ingredient_Id,
-                            //MeasureUnit=(MeasureUnit)ingredient.MeasureUnit,
                             MeasureUnit=ingredient.MeasureUnit,
-                            //MeasureUnit=(MeasureUnit)5,
                             UnitQuantity = ingredient.UnitQuantity
 
                         }

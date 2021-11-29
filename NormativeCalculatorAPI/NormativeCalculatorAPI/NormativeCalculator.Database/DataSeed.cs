@@ -3,6 +3,8 @@ using NormativeCalculator.Core;
 using NormativeCalculator.Common.Enums;
 using System;
 using System.Collections.Generic;
+using System.IO;
+using Newtonsoft.Json;
 
 namespace NormativeCalculator.Database
 {
@@ -29,34 +31,69 @@ namespace NormativeCalculator.Database
             };
             modelBuilder.Entity<RecipeCategory>().HasData(recipeCategories);
 
-            List<Ingredient> ingredients = new List<Ingredient>()
-            {
-                new Ingredient{ Id=1, Name="Oil",UnitPrice=2,UnitQuantity=1, MeasureUnit=MeasureUnit.L, CostIngredient=2*(1*1000)},
-                new Ingredient{ Id=2, Name="Water",UnitPrice=1,UnitQuantity=1,MeasureUnit=MeasureUnit.L, CostIngredient=1*(1*1000)},
-                new Ingredient{ Id=3, Name="Sugar",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.kg, CostIngredient=(2*1000)/4},
-                new Ingredient{ Id=4, Name="Flour",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.kg, CostIngredient=(2*1000)/4},
-                new Ingredient{ Id=5, Name="Chocolate",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.gr, CostIngredient=2*4},
-                new Ingredient{ Id=6, Name="Rice",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.kg, CostIngredient=(2*1000)/4},
-                new Ingredient{ Id=7, Name="Spaghetti",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.gr,CostIngredient=2*4},
-                new Ingredient{ Id=8, Name="Chicken",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.kg, CostIngredient=(2*1000)/4},
-                new Ingredient{ Id=9, Name="Avocado",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.kg, CostIngredient=(2*1000)/4},
-                new Ingredient{ Id=10, Name="Salt",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.kg, CostIngredient=(2*1000)/4},
-                new Ingredient{ Id=11, Name="Banana",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.kg, CostIngredient=(2*1000)/4},
-                new Ingredient{ Id=12, Name="Apple",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.kg, CostIngredient=(2*1000)/4},
-                new Ingredient{ Id=13, Name="Mayonnaise",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.ml, CostIngredient=2*4},
-                new Ingredient{ Id=14, Name="Bread",UnitPrice=2,UnitQuantity=4,MeasureUnit=MeasureUnit.kom, CostIngredient=2*4},
-            };
-            modelBuilder.Entity<Ingredient>().HasData(ingredients);
 
-            //List<MeasureUnits> measureUnits = new List<MeasureUnits>()
-            //{
-            //    new MeasureUnits{ Id=1, MeasureUnit="L"},
-            //    new MeasureUnits{ Id=2, MeasureUnit="kg"},
-            //    new MeasureUnits{ Id=3, MeasureUnit="gr"},
-            //    new MeasureUnits{ Id=4, MeasureUnit="ml"},
-            //    new MeasureUnits{ Id=5, MeasureUnit="kom"},
-            //};
-            //modelBuilder.Entity<MeasureUnits>().HasData(measureUnits);
+            var jsonIngredients = Path.Combine(Directory.GetCurrentDirectory(), "dataSeedIngredients.json");
+            StreamReader r = new StreamReader(jsonIngredients);
+            string jsonStringIngredients = r.ReadToEnd();
+            var ingredients = JsonConvert.DeserializeObject<List<Ingredient>>(jsonStringIngredients);
+
+            foreach (var m in ingredients)
+            {
+
+                Ingredient ingredient = new Ingredient
+                {
+                    Id = m.Id,
+                    Name = m.Name,
+                    UnitPrice = m.UnitPrice,
+                    UnitQuantity = m.UnitQuantity,
+                    MeasureUnit = m.MeasureUnit,
+                    CostIngredient = m.CostIngredient,
+                    CreatedAt = m.CreatedAt,
+                    IsDeleted = m.IsDeleted
+                };
+                modelBuilder.Entity<Ingredient>().HasData(ingredient);
+
+            }
+
+            var jsonRecipes = Path.Combine(Directory.GetCurrentDirectory(), "dataSeedRecipes.json");
+            StreamReader r2 = new StreamReader(jsonRecipes);
+            string jsonStringRecipes = r2.ReadToEnd();
+            var recipes = JsonConvert.DeserializeObject<List<Recipe>>(jsonStringRecipes);
+
+
+            foreach (var m in recipes)
+            {
+                Recipe recipe = new Recipe
+                {
+                    Id = m.Id,
+                    Name = m.Name,
+                    Description = m.Description,
+                    RecipeCategory_Id = m.RecipeCategory_Id,
+                    CreatedAt = m.CreatedAt,
+                    IsDeleted = m.IsDeleted,
+                };
+                modelBuilder.Entity<Recipe>().HasData(recipe);
+            }
+
+            var jsonRecipesIngredients = Path.Combine(Directory.GetCurrentDirectory(), "dataSeedRecipesIngredients.json");
+            StreamReader r3 = new StreamReader(jsonRecipesIngredients);
+            string jsonStringRecipesIngredients = r3.ReadToEnd();
+            var recipesIngredients = JsonConvert.DeserializeObject<List<RecipeIngredient>>(jsonStringRecipesIngredients);
+
+            for (int i = 0; i < recipesIngredients.Count; i++)
+            {
+                RecipeIngredient recipesIngredient = new RecipeIngredient()
+                {
+                    Recipe_Id = recipesIngredients[i].Recipe_Id,
+                    Ingredient_Id = recipesIngredients[i].Ingredient_Id,
+                    MeasureUnit = recipesIngredients[i].MeasureUnit,
+                    UnitQuantity = recipesIngredients[i].UnitQuantity,
+
+                };
+                modelBuilder.Entity<RecipeIngredient>().HasData(recipesIngredient);
+            }
+
+
         }
     }
 }

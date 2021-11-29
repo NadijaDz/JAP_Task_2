@@ -16,6 +16,7 @@ namespace NormativeCalculator.Core
 
         public MeasureUnit MeasureUnit { get; set; }
 
+        [Column(TypeName = "decimal(18,4)")]
         public decimal UnitQuantity { get; set; }
 
     }
