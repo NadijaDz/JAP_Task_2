@@ -24,6 +24,7 @@ namespace NormativeCalculatorAPI.Controllers
         {
             return Ok(await _ingredientsService.GetIngredientsAsync(cancellationToken));
         }
+
         [Authorize]
         [HttpPost]
         public async Task<IActionResult> InsertRecipeAsync(AddIngredientRequest request, CancellationToken cancellationToken)

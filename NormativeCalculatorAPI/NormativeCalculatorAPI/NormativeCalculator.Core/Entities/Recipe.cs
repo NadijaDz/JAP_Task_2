@@ -20,6 +20,8 @@ namespace NormativeCalculator.Core
         public RecipeCategory RecipeCategory { get; set; }
         public int RecipeCategory_Id { get; set; }
 
+        public string UserId { get; set; }
+
         public IdentityUser? User { get; set; }
 
         public IEnumerable<RecipeIngredient> RecipesIngredients { get; set; }

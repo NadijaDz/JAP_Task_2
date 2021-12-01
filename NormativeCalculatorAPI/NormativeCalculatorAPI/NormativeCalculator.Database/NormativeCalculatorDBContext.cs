@@ -21,6 +21,7 @@ namespace NormativeCalculator.Database
             base.OnModelCreating(modelBuilder);
             modelBuilder.Seed();
             modelBuilder.Entity<RecipeIngredient>().HasKey(sc => new { sc.Ingredient_Id, sc.Recipe_Id });
+            modelBuilder.Entity<Recipe>().HasOne(x => x.User).WithMany().HasForeignKey(x => x.UserId);
         }
     }
 }

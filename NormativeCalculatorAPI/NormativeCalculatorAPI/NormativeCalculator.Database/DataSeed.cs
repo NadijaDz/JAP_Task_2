@@ -14,20 +14,20 @@ namespace NormativeCalculator.Database
         {
             List<RecipeCategory> recipeCategories = new List<RecipeCategory>()
             {
-                new RecipeCategory{ Id=1, CategoryName="Breakfast", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=2, CategoryName="Lunch", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=3, CategoryName="Dinner", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=4, CategoryName="Snacks", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=5, CategoryName="Salads", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=6, CategoryName="Rice", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=7, CategoryName="Pasta", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=8, CategoryName="Chicken", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=9, CategoryName="Vegetarian", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=10, CategoryName="Meat", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=11, CategoryName="Seafood", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=12, CategoryName="Desserts", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=13, CategoryName="Drinks", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
-                new RecipeCategory{ Id=14, CategoryName="Burgers", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0) },
+                new RecipeCategory{ Id=1, CategoryName="Breakfast", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=2, CategoryName="Lunch", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=3, CategoryName="Dinner", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=4, CategoryName="Snacks", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=5, CategoryName="Salads", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=6, CategoryName="Rice", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=7, CategoryName="Pasta", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=8, CategoryName="Chicken", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=9, CategoryName="Vegetarian", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=10, CategoryName="Meat", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=11, CategoryName="Seafood", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=12, CategoryName="Desserts", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=13, CategoryName="Drinks", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
+                new RecipeCategory{ Id=14, CategoryName="Burgers", CreatedAt=new DateTime(new Random().Next(2021, 2021), new Random().Next(1, 12), new Random().Next(1, 28),0,0,0), IsDeleted=false },
             };
             modelBuilder.Entity<RecipeCategory>().HasData(recipeCategories);
 

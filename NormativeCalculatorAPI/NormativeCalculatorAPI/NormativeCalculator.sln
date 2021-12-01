@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NormativeCalculator.Mapper"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NormativeCalculator.Services", "NormativeCalculator.Services\NormativeCalculator.Services.csproj", "{44803139-6FD9-4795-B878-27E6739585D6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NormativeCalculator.NUnitTest", "NormativeCalculator.NUnitTest\NormativeCalculator.NUnitTest.csproj", "{DF64E1A5-4030-49A9-8824-2C25664457EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{44803139-6FD9-4795-B878-27E6739585D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44803139-6FD9-4795-B878-27E6739585D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44803139-6FD9-4795-B878-27E6739585D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF64E1A5-4030-49A9-8824-2C25664457EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF64E1A5-4030-49A9-8824-2C25664457EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF64E1A5-4030-49A9-8824-2C25664457EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF64E1A5-4030-49A9-8824-2C25664457EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

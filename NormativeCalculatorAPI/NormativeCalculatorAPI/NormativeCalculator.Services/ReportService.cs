@@ -43,7 +43,7 @@ namespace NormativeCalculator.Services
             parameters.Add("@minQuantity", minQuantity);
             parameters.Add("@maxQuantity", maxQuantity);
 
-            return await _dbConnection.QueryAsync<GetMostUsedIngredientsResponse>("dbo.GetMostUsedIngredients", parameters ,commandType: CommandType.StoredProcedure);
+            return await _dbConnection.QueryAsync<GetMostUsedIngredientsResponse>("dbo.GetMostUsedIngredients", parameters, commandType: CommandType.StoredProcedure);
         }
 
         public async Task<IEnumerable<GetRecipesOrderByCostRecipeGroupByCategoryResponse>> GetRecipesOrderByCostRecipeGroupByCategory(CancellationToken cancellationToken)
@@ -53,7 +53,6 @@ namespace NormativeCalculator.Services
 
         public async Task<IEnumerable<GetRecipesWithAtLeast10IngredientsResponse>> GetRecipesWithAtLeast10Ingredients(CancellationToken cancellationToken)
         {
-            var nest = await _dbConnection.QueryAsync<GetRecipesWithAtLeast10IngredientsResponse>("dbo.GetRecipesWithAtLeast10Ingredients", commandType: CommandType.StoredProcedure);
             return await _dbConnection.QueryAsync<GetRecipesWithAtLeast10IngredientsResponse>("dbo.GetRecipesWithAtLeast10Ingredients", commandType: CommandType.StoredProcedure);
         }
     }

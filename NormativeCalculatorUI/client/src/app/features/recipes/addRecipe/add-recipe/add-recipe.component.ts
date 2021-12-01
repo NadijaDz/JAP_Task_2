@@ -20,14 +20,20 @@ export class AddRecipeComponent implements OnInit {
   categoryId: string;
   ingredients: Ingredient[] = [];
   measureUnits = MeasureUnit;
-  enumKeys=[];
+  enumKeys = [];
   totalCost: any = 0;
   nameofCategory: string;
   closeResult: string;
   modalOptions: NgbModalOptions;
-  disabledMeasureUnits: boolean[] = new Array(false,false,false,false,false);
-  ingredientEumKeys:any=[];
-  
+  disabledMeasureUnits: boolean[] = new Array(
+    false,
+    false,
+    false,
+    false,
+    false
+  );
+  ingredientEumKeys: any = [];
+
   constructor(
     private route: ActivatedRoute,
     private ingredientsService: IngredientsService,
@@ -36,7 +42,9 @@ export class AddRecipeComponent implements OnInit {
     private modalService: NgbModal,
     private toastr: ToastrService
   ) {
-    this.enumKeys = Object.keys(this.measureUnits).filter(f => !isNaN(Number(f)));
+    this.enumKeys = Object.keys(this.measureUnits).filter(
+      (f) => !isNaN(Number(f))
+    );
   }
 
   ngOnInit() {
@@ -96,7 +104,6 @@ export class AddRecipeComponent implements OnInit {
         measureUnit: new FormControl(null, Validators.required),
         unitQuantity: new FormControl(null, Validators.required),
         costIngredient: new FormControl(0),
-        
       })
     );
     this.ingredientEumKeys.push([]);
@@ -114,11 +121,9 @@ export class AddRecipeComponent implements OnInit {
       ].costIngredient.value;
     (<FormArray>this.recipeForm.get('ingredients')).removeAt(index);
     this.ingredientEumKeys.removeAt(index);
-
   }
 
   totalCostPerIngredient(index) {
-
     var ingredientId =
       this.recipeForm.get('ingredients')['controls'][index]['controls']
         .ingredient_Id.value;
@@ -133,33 +138,44 @@ export class AddRecipeComponent implements OnInit {
       var ingredient = this.ingredients.find((x) => x.id == ingredientId);
       var measureUnit = MeasureUnit[measureUnit].toString();
 
+      var priceIngredient = 0;
 
-       var priceIngredient = 0;
-      if (ingredient.measureUnit.toString() == measureUnit || measureUnit == 'kom') 
-      {
-        priceIngredient = (ingredient.costIngredient * unitQuantity)/1000;
+      if (measureUnit == 'kg' ||  measureUnit == 'L') {
+        priceIngredient = ingredient.unitPrice * (unitQuantity * 1000);
+      } 
+      else {
+        priceIngredient = ingredient.unitPrice * unitQuantity;
       }
-      else{
-        priceIngredient=((ingredient.costIngredient/1000)*(unitQuantity))/1000;
-      }
-    
-      this.recipeForm.get('ingredients') ['controls'][index]['controls']['costIngredient'].setValue(priceIngredient);
+
+      this.recipeForm
+        .get('ingredients')
+        ['controls'][index]['controls']['costIngredient'].setValue(
+          priceIngredient
+        );
       this.totalCost = 0;
-      for (let i = 0; i < this.recipeForm.get('ingredients')['controls'].length;i++) {
-        this.totalCost += (this.recipeForm.get('ingredients')['controls'][i]['controls'].costIngredient.value);
+      for (
+        let i = 0;
+        i < this.recipeForm.get('ingredients')['controls'].length;
+        i++
+      ) {
+        this.totalCost +=
+          this.recipeForm.get('ingredients')['controls'][i][
+            'controls'
+          ].costIngredient.value;
       }
     }
   }
 
-
   changeMeasureUnit(index) {
-
-    var ingredientId = (<FormArray>this.recipeForm.get('ingredients')).controls[index]['controls'].ingredient_Id.value;
+    var ingredientId = (<FormArray>this.recipeForm.get('ingredients')).controls[
+      index
+    ]['controls'].ingredient_Id.value;
 
     var ingredient = this.ingredients.find((x) => x.id == ingredientId);
     var measureUnitFromIngredient = ingredient.measureUnit;
 
-    var measureUnitValueFromIngredient=MeasureUnit[measureUnitFromIngredient].toString();
+    var measureUnitValueFromIngredient =
+      MeasureUnit[measureUnitFromIngredient].toString();
 
     //set measure unit base measure unit from ingredient
     this.recipeForm
@@ -172,20 +188,25 @@ export class AddRecipeComponent implements OnInit {
     switch (measureUnitValueFromIngredient) {
       case '1':
       case '2':
-          var valueKgAndGr = Object.keys(this.measureUnits).filter(f => !isNaN(Number(f)) && f=='1' || f=='2');
-          this.ingredientEumKeys[index]=valueKgAndGr;
+        var valueKgAndGr = Object.keys(this.measureUnits).filter(
+          (f) => (!isNaN(Number(f)) && f == '1') || f == '2'
+        );
+        this.ingredientEumKeys[index] = valueKgAndGr;
         break;
 
       case '3':
       case '4':
-
-          var valueLAndMl = Object.keys(this.measureUnits).filter(f => !isNaN(Number(f)) && f=='3' || f=='4');
-          this.ingredientEumKeys[index]=valueLAndMl;
+        var valueLAndMl = Object.keys(this.measureUnits).filter(
+          (f) => (!isNaN(Number(f)) && f == '3') || f == '4'
+        );
+        this.ingredientEumKeys[index] = valueLAndMl;
         break;
 
-     case '5':
-         var valueKom = Object.keys(this.measureUnits).filter(f => !isNaN(Number(f)) && f=='5');
-         this.ingredientEumKeys[index]=valueKom;
+      case '5':
+        var valueKom = Object.keys(this.measureUnits).filter(
+          (f) => !isNaN(Number(f)) && f == '5'
+        );
+        this.ingredientEumKeys[index] = valueKom;
         break;
 
       default:

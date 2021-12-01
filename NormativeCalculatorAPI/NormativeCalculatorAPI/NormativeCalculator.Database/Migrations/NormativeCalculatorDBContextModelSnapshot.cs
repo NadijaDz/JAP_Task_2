@@ -250,1103 +250,1103 @@ namespace NormativeCalculator.Infrastructure.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 18,
-                            CostIngredient = 1000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 72,
+                            CostIngredient = 5m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "lemon juice",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
+                            MeasureUnit = 1,
+                            Name = "sea salt",
+                            UnitPrice = 0.0025m,
+                            UnitQuantity = 2m
                         },
                         new
                         {
-                            Id = 43,
-                            CostIngredient = 4m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 81,
+                            CostIngredient = 20m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "white sugar",
-                            UnitPrice = 4m,
-                            UnitQuantity = 1m
+                            MeasureUnit = 3,
+                            Name = "fresh basil",
+                            UnitPrice = 0.002857142857142857m,
+                            UnitQuantity = 7m
                         },
                         new
                         {
                             Id = 56,
-                            CostIngredient = 10m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "chili powder",
-                            UnitPrice = 10m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 78,
-                            CostIngredient = 8000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "ground nutmeg",
-                            UnitPrice = 8m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 96,
-                            CostIngredient = 2m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "light brown sugar",
-                            UnitPrice = 2m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 10,
-                            CostIngredient = 4m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 42m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 4,
-                            Name = "pepper",
-                            UnitPrice = 4m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 77,
-                            CostIngredient = 9000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "spinach",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 82,
-                            CostIngredient = 5m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "garlic",
-                            UnitPrice = 5m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 32,
-                            CostIngredient = 10m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "honey",
-                            UnitPrice = 10m,
-                            UnitQuantity = 1m
+                            Name = "chili powder",
+                            UnitPrice = 10.5m,
+                            UnitQuantity = 4m
                         },
                         new
                         {
                             Id = 85,
-                            CostIngredient = 1000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "parmesan cheese",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 53,
-                            CostIngredient = 3m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "shallots",
-                            UnitPrice = 3m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 73,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 10m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 4,
-                            Name = "shrimp",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
+                            Name = "parmesan cheese",
+                            UnitPrice = 1m,
+                            UnitQuantity = 10m
                         },
                         new
                         {
-                            Id = 17,
-                            CostIngredient = 1m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 88,
+                            CostIngredient = 46m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "baking powder",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
+                            MeasureUnit = 1,
+                            Name = "chopped walnuts",
+                            UnitPrice = 0.005111111111111111m,
+                            UnitQuantity = 9m
                         },
                         new
                         {
                             Id = 50,
-                            CostIngredient = 1000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 43m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 1,
                             Name = "margarine",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 69,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "cooking spray",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 26,
-                            CostIngredient = 9m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "kosher salt",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 52,
-                            CostIngredient = 7m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "paprika",
-                            UnitPrice = 7m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 93,
-                            CostIngredient = 1m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "buttermilk",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 67,
-                            CostIngredient = 2m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "scallions",
-                            UnitPrice = 2m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 42,
-                            CostIngredient = 2000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "minced garlic",
-                            UnitPrice = 2m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 6,
-                            CostIngredient = 9000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "eggs",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 35,
-                            CostIngredient = 4000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "red onion",
-                            UnitPrice = 4m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 9,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "olive oil",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 21,
-                            CostIngredient = 3000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "carrots",
-                            UnitPrice = 3m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 24,
-                            CostIngredient = 10m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "baking soda",
-                            UnitPrice = 10m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 27,
-                            CostIngredient = 2000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "ground cinnamon",
-                            UnitPrice = 2m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 40,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "oil",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 64,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "lemon",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 74,
-                            CostIngredient = 4000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "diced tomatoes",
-                            UnitPrice = 4m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 61,
-                            CostIngredient = 3m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "egg whites",
-                            UnitPrice = 3m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 3,
-                            CostIngredient = 10000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "butter",
-                            UnitPrice = 10m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 71,
-                            CostIngredient = 5000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "ground beef",
-                            UnitPrice = 5m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 41,
-                            CostIngredient = 1000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "grated parmesan cheese",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 37,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "fresh parsley",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 1,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "salt",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 44,
-                            CostIngredient = 7m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "mayonnaise",
-                            UnitPrice = 7m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 14,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "vegetable oil",
-                            UnitPrice = 6m,
+                            UnitPrice = 0.043m,
                             UnitQuantity = 1m
                         },
                         new
                         {
                             Id = 92,
+                            CostIngredient = 48m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "chicken stock",
+                            UnitPrice = 4.8m,
+                            UnitQuantity = 10m
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CostIngredient = 45m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "all-purpose flour",
+                            UnitPrice = 0.005m,
+                            UnitQuantity = 9m
+                        },
+                        new
+                        {
+                            Id = 61,
+                            CostIngredient = 31m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "egg whites",
+                            UnitPrice = 15.5m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 76,
                             CostIngredient = 1m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "melted butter",
+                            UnitPrice = 0.1m,
+                            UnitQuantity = 10m
+                        },
+                        new
+                        {
+                            Id = 44,
+                            CostIngredient = 16m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "mayonnaise",
+                            UnitPrice = 0.005333333333333333m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 64,
+                            CostIngredient = 40m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "lemon",
+                            UnitPrice = 5m,
+                            UnitQuantity = 8m
+                        },
+                        new
+                        {
+                            Id = 89,
+                            CostIngredient = 38m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "ground ginger",
+                            UnitPrice = 4.222222222222222m,
+                            UnitQuantity = 9m
+                        },
+                        new
+                        {
+                            Id = 86,
+                            CostIngredient = 31m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "juice",
+                            UnitPrice = 0.010333333333333333m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 46,
+                            CostIngredient = 6m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "soy sauce",
+                            UnitPrice = 2m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 33,
+                            CostIngredient = 8m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "cream cheese",
+                            UnitPrice = 4m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 22,
+                            CostIngredient = 22m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "cloves garlic",
+                            UnitPrice = 2.2m,
+                            UnitQuantity = 10m
+                        },
+                        new
+                        {
+                            Id = 19,
+                            CostIngredient = 47m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "vanilla extract",
+                            UnitPrice = 5.875m,
+                            UnitQuantity = 8m
+                        },
+                        new
+                        {
+                            Id = 54,
+                            CostIngredient = 20m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "fresh cilantro",
+                            UnitPrice = 10m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 28,
+                            CostIngredient = 33m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 5,
-                            Name = "chicken stock",
+                            Name = "green onions",
+                            UnitPrice = 11m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 73,
+                            CostIngredient = 2m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "shrimp",
                             UnitPrice = 1m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 100,
+                            CostIngredient = 6m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "raisins",
+                            UnitPrice = 0.0015m,
+                            UnitQuantity = 4m
+                        },
+                        new
+                        {
+                            Id = 48,
+                            CostIngredient = 32m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "heavy cream",
+                            UnitPrice = 3.2m,
+                            UnitQuantity = 10m
+                        },
+                        new
+                        {
+                            Id = 60,
+                            CostIngredient = 43m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 5,
+                            Name = "dijon mustard",
+                            UnitPrice = 10.75m,
+                            UnitQuantity = 4m
+                        },
+                        new
+                        {
+                            Id = 41,
+                            CostIngredient = 45m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 5,
+                            Name = "grated parmesan cheese",
+                            UnitPrice = 11.25m,
+                            UnitQuantity = 4m
+                        },
+                        new
+                        {
+                            Id = 30,
+                            CostIngredient = 46m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 5,
+                            Name = "vanilla",
+                            UnitPrice = 5.75m,
+                            UnitQuantity = 8m
+                        },
+                        new
+                        {
+                            Id = 62,
+                            CostIngredient = 19m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "bacon",
+                            UnitPrice = 0.019m,
+                            UnitQuantity = 1m
+                        },
+                        new
+                        {
+                            Id = 74,
+                            CostIngredient = 9m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "diced tomatoes",
+                            UnitPrice = 1.5m,
+                            UnitQuantity = 6m
+                        },
+                        new
+                        {
+                            Id = 32,
+                            CostIngredient = 36m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "honey",
+                            UnitPrice = 0.012m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 9,
+                            CostIngredient = 9m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "olive oil",
+                            UnitPrice = 2.25m,
+                            UnitQuantity = 4m
+                        },
+                        new
+                        {
+                            Id = 21,
+                            CostIngredient = 8m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "carrots",
+                            UnitPrice = 0.0026666666666666666m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 69,
+                            CostIngredient = 2m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "cooking spray",
+                            UnitPrice = 0.002m,
+                            UnitQuantity = 1m
+                        },
+                        new
+                        {
+                            Id = 93,
+                            CostIngredient = 21m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "buttermilk",
+                            UnitPrice = 10.5m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 49,
+                            CostIngredient = 32m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "cinnamon",
+                            UnitPrice = 5.333333333333333m,
+                            UnitQuantity = 6m
+                        },
+                        new
+                        {
+                            Id = 27,
+                            CostIngredient = 6m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "ground cinnamon",
+                            UnitPrice = 0.6m,
+                            UnitQuantity = 10m
+                        },
+                        new
+                        {
+                            Id = 84,
+                            CostIngredient = 28m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "balsamic vinegar",
+                            UnitPrice = 0.028m,
                             UnitQuantity = 1m
                         },
                         new
                         {
                             Id = 70,
-                            CostIngredient = 5000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 3m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
-                            MeasureUnit = 3,
+                            MeasureUnit = 1,
                             Name = "cayenne pepper",
-                            UnitPrice = 5m,
-                            UnitQuantity = 1m
+                            UnitPrice = 0.000375m,
+                            UnitQuantity = 8m
                         },
                         new
                         {
-                            Id = 30,
-                            CostIngredient = 10000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "vanilla",
-                            UnitPrice = 10m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 76,
-                            CostIngredient = 2m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 18,
+                            CostIngredient = 25m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 5,
-                            Name = "melted butter",
-                            UnitPrice = 2m,
-                            UnitQuantity = 1m
+                            Name = "lemon juice",
+                            UnitPrice = 3.125m,
+                            UnitQuantity = 8m
                         },
                         new
                         {
-                            Id = 13,
-                            CostIngredient = 8m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "unsalted butter",
-                            UnitPrice = 8m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 7,
-                            CostIngredient = 1000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "all-purpose flour",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 22,
-                            CostIngredient = 4000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "cloves garlic",
-                            UnitPrice = 4m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 20,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "freshly ground pepper",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 12,
-                            CostIngredient = 7m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "garlic cloves",
-                            UnitPrice = 7m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 97,
+                            Id = 3,
                             CostIngredient = 9m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 4,
-                            Name = "lime juice",
-                            UnitPrice = 9m,
+                            Name = "butter",
+                            UnitPrice = 4.5m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 98,
+                            CostIngredient = 26m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "red pepper",
+                            UnitPrice = 26m,
                             UnitQuantity = 1m
                         },
                         new
                         {
-                            Id = 83,
-                            CostIngredient = 5m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 96,
+                            CostIngredient = 31m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 2,
-                            Name = "dry white wine",
-                            UnitPrice = 5m,
-                            UnitQuantity = 1m
+                            Name = "light brown sugar",
+                            UnitPrice = 15.5m,
+                            UnitQuantity = 2m
                         },
                         new
                         {
-                            Id = 62,
-                            CostIngredient = 7m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "bacon",
-                            UnitPrice = 7m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 59,
-                            CostIngredient = 5m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "canola oil",
-                            UnitPrice = 5m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 5,
-                            CostIngredient = 10000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 42,
+                            CostIngredient = 49m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 3,
-                            Name = "onion",
-                            UnitPrice = 10m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 15,
-                            CostIngredient = 1m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "extra-virgin olive oil",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 100,
-                            CostIngredient = 7000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "raisins",
-                            UnitPrice = 7m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 90,
-                            CostIngredient = 6000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "semisweet chocolate",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 57,
-                            CostIngredient = 5000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "worcestershire sauce",
-                            UnitPrice = 5m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 31,
-                            CostIngredient = 1m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "sour cream",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 51,
-                            CostIngredient = 8000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "celery",
-                            UnitPrice = 8m,
-                            UnitQuantity = 1m
+                            Name = "minced garlic",
+                            UnitPrice = 0.0049m,
+                            UnitQuantity = 10m
                         },
                         new
                         {
                             Id = 95,
-                            CostIngredient = 1m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "fresh ginger",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 19,
-                            CostIngredient = 8m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "vanilla extract",
-                            UnitPrice = 8m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 2,
-                            CostIngredient = 5m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "sugar",
-                            UnitPrice = 5m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 72,
-                            CostIngredient = 6000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "sea salt",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 23,
-                            CostIngredient = 9m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "flour",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 55,
-                            CostIngredient = 4m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "potatoes",
-                            UnitPrice = 4m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 33,
-                            CostIngredient = 1000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "cream cheese",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 39,
-                            CostIngredient = 10000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 39m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 1,
-                            Name = "cornstarch",
-                            UnitPrice = 10m,
-                            UnitQuantity = 1m
+                            Name = "fresh ginger",
+                            UnitPrice = 0.013m,
+                            UnitQuantity = 3m
                         },
                         new
                         {
-                            Id = 45,
-                            CostIngredient = 9m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 97,
+                            CostIngredient = 8m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 5,
-                            Name = "ground cumin",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
+                            Name = "lime juice",
+                            UnitPrice = 0.8888888888888888m,
+                            UnitQuantity = 9m
                         },
                         new
                         {
-                            Id = 48,
-                            CostIngredient = 7000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "heavy cream",
-                            UnitPrice = 7m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 36,
-                            CostIngredient = 9m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 37,
+                            CostIngredient = 44m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 4,
-                            Name = "chicken broth",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 49,
-                            CostIngredient = 2m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "cinnamon",
-                            UnitPrice = 2m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 60,
-                            CostIngredient = 9m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "dijon mustard",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
+                            Name = "fresh parsley",
+                            UnitPrice = 7.333333333333333m,
+                            UnitQuantity = 6m
                         },
                         new
                         {
                             Id = 8,
-                            CostIngredient = 2m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 41m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 5,
                             Name = "water",
-                            UnitPrice = 2m,
+                            UnitPrice = 41m,
                             UnitQuantity = 1m
                         },
                         new
                         {
                             Id = 94,
-                            CostIngredient = 4000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 38m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "chicken",
+                            UnitPrice = 12.666666666666666m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 53,
+                            CostIngredient = 32m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "shallots",
+                            UnitPrice = 3.2m,
+                            UnitQuantity = 10m
+                        },
+                        new
+                        {
+                            Id = 38,
+                            CostIngredient = 20m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "garlic powder",
+                            UnitPrice = 0.006666666666666667m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 16,
+                            CostIngredient = 28m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 5,
+                            Name = "brown sugar",
+                            UnitPrice = 3.111111111111111m,
+                            UnitQuantity = 9m
+                        },
+                        new
+                        {
+                            Id = 11,
+                            CostIngredient = 13m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 3,
-                            Name = "chicken",
-                            UnitPrice = 4m,
+                            Name = "milk",
+                            UnitPrice = 0.0065m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 25,
+                            CostIngredient = 18m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "tomatoes",
+                            UnitPrice = 0.018m,
                             UnitQuantity = 1m
                         },
                         new
                         {
                             Id = 66,
-                            CostIngredient = 8m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 26m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "dried oregano",
+                            UnitPrice = 0.0037142857142857142m,
+                            UnitQuantity = 7m
+                        },
+                        new
+                        {
+                            Id = 14,
+                            CostIngredient = 14m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "vegetable oil",
+                            UnitPrice = 0.00175m,
+                            UnitQuantity = 8m
+                        },
+                        new
+                        {
+                            Id = 15,
+                            CostIngredient = 17m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 2,
-                            Name = "dried oregano",
-                            UnitPrice = 8m,
+                            Name = "extra-virgin olive oil",
+                            UnitPrice = 1.8888888888888888m,
+                            UnitQuantity = 9m
+                        },
+                        new
+                        {
+                            Id = 91,
+                            CostIngredient = 50m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "chopped pecans",
+                            UnitPrice = 0.0125m,
+                            UnitQuantity = 4m
+                        },
+                        new
+                        {
+                            Id = 35,
+                            CostIngredient = 28m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "red onion",
+                            UnitPrice = 0.014m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 58,
+                            CostIngredient = 18m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "red bell pepper",
+                            UnitPrice = 3.6m,
+                            UnitQuantity = 5m
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CostIngredient = 14m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "sugar",
+                            UnitPrice = 0.0035m,
+                            UnitQuantity = 4m
+                        },
+                        new
+                        {
+                            Id = 12,
+                            CostIngredient = 23m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "garlic cloves",
+                            UnitPrice = 7.666666666666667m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CostIngredient = 50m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "eggs",
+                            UnitPrice = 10m,
+                            UnitQuantity = 5m
+                        },
+                        new
+                        {
+                            Id = 79,
+                            CostIngredient = 49m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "zucchini",
+                            UnitPrice = 0.008166666666666666m,
+                            UnitQuantity = 6m
+                        },
+                        new
+                        {
+                            Id = 67,
+                            CostIngredient = 25m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "scallions",
+                            UnitPrice = 0.003125m,
+                            UnitQuantity = 8m
+                        },
+                        new
+                        {
+                            Id = 23,
+                            CostIngredient = 49m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "flour",
+                            UnitPrice = 0.008166666666666666m,
+                            UnitQuantity = 6m
+                        },
+                        new
+                        {
+                            Id = 63,
+                            CostIngredient = 39m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "powdered sugar",
+                            UnitPrice = 0.013m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 68,
+                            CostIngredient = 18m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "shredded cheddar cheese",
+                            UnitPrice = 3.6m,
+                            UnitQuantity = 5m
+                        },
+                        new
+                        {
+                            Id = 52,
+                            CostIngredient = 16m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "paprika",
+                            UnitPrice = 0.002m,
+                            UnitQuantity = 8m
+                        },
+                        new
+                        {
+                            Id = 90,
+                            CostIngredient = 34m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "semisweet chocolate",
+                            UnitPrice = 0.017m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CostIngredient = 5m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 5,
+                            Name = "onion",
+                            UnitPrice = 5m,
                             UnitQuantity = 1m
                         },
                         new
                         {
-                            Id = 65,
-                            CostIngredient = 5000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 82,
+                            CostIngredient = 35m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 1,
-                            Name = "orange juice",
-                            UnitPrice = 5m,
+                            Name = "garlic",
+                            UnitPrice = 0.011666666666666667m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 77,
+                            CostIngredient = 48m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "spinach",
+                            UnitPrice = 0.048m,
                             UnitQuantity = 1m
                         },
                         new
                         {
                             Id = 75,
-                            CostIngredient = 9000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "strawberries",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 80,
-                            CostIngredient = 3m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "egg yolks",
-                            UnitPrice = 3m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 38,
-                            CostIngredient = 9m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "garlic powder",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 79,
-                            CostIngredient = 2000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 47m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 3,
-                            Name = "zucchini",
-                            UnitPrice = 2m,
+                            Name = "strawberries",
+                            UnitPrice = 0.005222222222222222m,
+                            UnitQuantity = 9m
+                        },
+                        new
+                        {
+                            Id = 65,
+                            CostIngredient = 16m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "orange juice",
+                            UnitPrice = 0.0016m,
+                            UnitQuantity = 10m
+                        },
+                        new
+                        {
+                            Id = 26,
+                            CostIngredient = 1m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "kosher salt",
+                            UnitPrice = 0.1m,
+                            UnitQuantity = 10m
+                        },
+                        new
+                        {
+                            Id = 31,
+                            CostIngredient = 7m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "sour cream",
+                            UnitPrice = 1m,
+                            UnitQuantity = 7m
+                        },
+                        new
+                        {
+                            Id = 20,
+                            CostIngredient = 40m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 5,
+                            Name = "freshly ground pepper",
+                            UnitPrice = 40m,
                             UnitQuantity = 1m
+                        },
+                        new
+                        {
+                            Id = 40,
+                            CostIngredient = 17m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 5,
+                            Name = "oil",
+                            UnitPrice = 4.25m,
+                            UnitQuantity = 4m
+                        },
+                        new
+                        {
+                            Id = 78,
+                            CostIngredient = 20m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "ground nutmeg",
+                            UnitPrice = 2.5m,
+                            UnitQuantity = 8m
+                        },
+                        new
+                        {
+                            Id = 17,
+                            CostIngredient = 39m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "baking powder",
+                            UnitPrice = 0.005571428571428572m,
+                            UnitQuantity = 7m
+                        },
+                        new
+                        {
+                            Id = 47,
+                            CostIngredient = 11m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "fresh lemon juice",
+                            UnitPrice = 2.75m,
+                            UnitQuantity = 4m
+                        },
+                        new
+                        {
+                            Id = 87,
+                            CostIngredient = 15m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "apples",
+                            UnitPrice = 0.00375m,
+                            UnitQuantity = 4m
                         },
                         new
                         {
                             Id = 4,
-                            CostIngredient = 3m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "black pepper",
-                            UnitPrice = 3m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 84,
-                            CostIngredient = 7m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "balsamic vinegar",
-                            UnitPrice = 7m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 28,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "green onions",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 16,
-                            CostIngredient = 3m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "brown sugar",
-                            UnitPrice = 3m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 88,
-                            CostIngredient = 9m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 39m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 4,
-                            Name = "chopped walnuts",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
+                            Name = "black pepper",
+                            UnitPrice = 6.5m,
+                            UnitQuantity = 6m
                         },
                         new
                         {
-                            Id = 81,
-                            CostIngredient = 1000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 51,
+                            CostIngredient = 5m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
-                            MeasureUnit = 1,
-                            Name = "fresh basil",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
+                            MeasureUnit = 2,
+                            Name = "celery",
+                            UnitPrice = 1.6666666666666667m,
+                            UnitQuantity = 3m
                         },
                         new
                         {
-                            Id = 63,
-                            CostIngredient = 4000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 83,
+                            CostIngredient = 44m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "dry white wine",
+                            UnitPrice = 22m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 80,
+                            CostIngredient = 1m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 4,
+                            Name = "egg yolks",
+                            UnitPrice = 0.5m,
+                            UnitQuantity = 2m
+                        },
+                        new
+                        {
+                            Id = 39,
+                            CostIngredient = 17m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 3,
-                            Name = "powdered sugar",
-                            UnitPrice = 4m,
-                            UnitQuantity = 1m
+                            Name = "cornstarch",
+                            UnitPrice = 0.0028333333333333335m,
+                            UnitQuantity = 6m
                         },
                         new
                         {
-                            Id = 98,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 13,
+                            CostIngredient = 18m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "red pepper",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 68,
-                            CostIngredient = 9m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "shredded cheddar cheese",
+                            MeasureUnit = 2,
+                            Name = "unsalted butter",
                             UnitPrice = 9m,
-                            UnitQuantity = 1m
+                            UnitQuantity = 2m
                         },
                         new
                         {
-                            Id = 91,
-                            CostIngredient = 9m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            Id = 43,
+                            CostIngredient = 50m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "white sugar",
+                            UnitPrice = 6.25m,
+                            UnitQuantity = 8m
+                        },
+                        new
+                        {
+                            Id = 36,
+                            CostIngredient = 28m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 5,
+                            Name = "chicken broth",
+                            UnitPrice = 9.333333333333334m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 71,
+                            CostIngredient = 8m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 4,
-                            Name = "chopped pecans",
-                            UnitPrice = 9m,
+                            Name = "ground beef",
+                            UnitPrice = 2.6666666666666665m,
+                            UnitQuantity = 3m
+                        },
+                        new
+                        {
+                            Id = 45,
+                            CostIngredient = 20m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "ground cumin",
+                            UnitPrice = 0.004m,
+                            UnitQuantity = 5m
+                        },
+                        new
+                        {
+                            Id = 10,
+                            CostIngredient = 49m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 5,
+                            Name = "pepper",
+                            UnitPrice = 7m,
+                            UnitQuantity = 7m
+                        },
+                        new
+                        {
+                            Id = 57,
+                            CostIngredient = 39m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "worcestershire sauce",
+                            UnitPrice = 0.0065m,
+                            UnitQuantity = 6m
+                        },
+                        new
+                        {
+                            Id = 34,
+                            CostIngredient = 39m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "granulated sugar",
+                            UnitPrice = 0.00975m,
+                            UnitQuantity = 4m
+                        },
+                        new
+                        {
+                            Id = 55,
+                            CostIngredient = 1m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 1,
+                            Name = "potatoes",
+                            UnitPrice = 0.0001m,
+                            UnitQuantity = 10m
+                        },
+                        new
+                        {
+                            Id = 1,
+                            CostIngredient = 38m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "salt",
+                            UnitPrice = 0.038m,
                             UnitQuantity = 1m
                         },
                         new
                         {
                             Id = 99,
-                            CostIngredient = 2m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "chicken breasts",
-                            UnitPrice = 2m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 46,
-                            CostIngredient = 9000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "soy sauce",
-                            UnitPrice = 9m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 34,
-                            CostIngredient = 4m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "granulated sugar",
-                            UnitPrice = 4m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 25,
-                            CostIngredient = 5m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "tomatoes",
-                            UnitPrice = 5m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 58,
-                            CostIngredient = 3m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 5,
-                            Name = "red bell pepper",
-                            UnitPrice = 3m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 11,
-                            CostIngredient = 5000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 16m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
                             IsDeleted = false,
                             MeasureUnit = 1,
-                            Name = "milk",
-                            UnitPrice = 5m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 54,
-                            CostIngredient = 4m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 2,
-                            Name = "fresh cilantro",
-                            UnitPrice = 4m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 87,
-                            CostIngredient = 1000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "apples",
-                            UnitPrice = 1m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 47,
-                            CostIngredient = 6m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "fresh lemon juice",
-                            UnitPrice = 6m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 89,
-                            CostIngredient = 4000m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 3,
-                            Name = "ground ginger",
-                            UnitPrice = 4m,
-                            UnitQuantity = 1m
-                        },
-                        new
-                        {
-                            Id = 86,
-                            CostIngredient = 8m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
-                            IsDeleted = false,
-                            MeasureUnit = 4,
-                            Name = "juice",
-                            UnitPrice = 8m,
-                            UnitQuantity = 1m
+                            Name = "chicken breasts",
+                            UnitPrice = 0.008m,
+                            UnitQuantity = 2m
                         },
                         new
                         {
                             Id = 29,
-                            CostIngredient = 10m,
-                            CreatedAt = new DateTime(2021, 11, 29, 12, 45, 24, 619, DateTimeKind.Utc),
+                            CostIngredient = 26m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
                             IsDeleted = false,
-                            MeasureUnit = 5,
+                            MeasureUnit = 3,
                             Name = "large eggs",
-                            UnitPrice = 10m,
-                            UnitQuantity = 1m
+                            UnitPrice = 0.0028888888888888888m,
+                            UnitQuantity = 9m
+                        },
+                        new
+                        {
+                            Id = 59,
+                            CostIngredient = 21m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 25, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 3,
+                            Name = "canola oil",
+                            UnitPrice = 0.002625m,
+                            UnitQuantity = 8m
+                        },
+                        new
+                        {
+                            Id = 24,
+                            CostIngredient = 15m,
+                            CreatedAt = new DateTime(2021, 12, 1, 10, 29, 53, 24, DateTimeKind.Utc),
+                            IsDeleted = false,
+                            MeasureUnit = 2,
+                            Name = "baking soda",
+                            UnitPrice = 1.5m,
+                            UnitQuantity = 10m
                         });
                 });
 
@@ -2761,85 +2761,99 @@ namespace NormativeCalculator.Infrastructure.Migrations
                         {
                             Id = 1,
                             CategoryName = "Breakfast",
-                            CreatedAt = new DateTime(2021, 10, 18, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 4, 26, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 2,
                             CategoryName = "Lunch",
-                            CreatedAt = new DateTime(2021, 3, 9, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 4, 8, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 3,
                             CategoryName = "Dinner",
-                            CreatedAt = new DateTime(2021, 8, 21, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 4, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 4,
                             CategoryName = "Snacks",
-                            CreatedAt = new DateTime(2021, 5, 2, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 4, 24, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 5,
                             CategoryName = "Salads",
-                            CreatedAt = new DateTime(2021, 6, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 5, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 6,
                             CategoryName = "Rice",
-                            CreatedAt = new DateTime(2021, 6, 5, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 9, 4, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 7,
                             CategoryName = "Pasta",
-                            CreatedAt = new DateTime(2021, 11, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 3, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 8,
                             CategoryName = "Chicken",
-                            CreatedAt = new DateTime(2021, 9, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 8, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 9,
                             CategoryName = "Vegetarian",
-                            CreatedAt = new DateTime(2021, 1, 19, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 3, 22, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 10,
                             CategoryName = "Meat",
-                            CreatedAt = new DateTime(2021, 7, 16, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 5, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 11,
                             CategoryName = "Seafood",
-                            CreatedAt = new DateTime(2021, 10, 22, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 1, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 12,
                             CategoryName = "Desserts",
-                            CreatedAt = new DateTime(2021, 3, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 2, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 13,
                             CategoryName = "Drinks",
-                            CreatedAt = new DateTime(2021, 4, 6, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 9, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         },
                         new
                         {
                             Id = 14,
                             CategoryName = "Burgers",
-                            CreatedAt = new DateTime(2021, 7, 17, 0, 0, 0, 0, DateTimeKind.Unspecified)
+                            CreatedAt = new DateTime(2021, 5, 21, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsDeleted = false
                         });
                 });
 

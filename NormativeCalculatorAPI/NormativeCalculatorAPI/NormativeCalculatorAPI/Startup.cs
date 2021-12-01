@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using NormativeCalculator.API.Extensions;
+
 using System;
 
 namespace NormativeCalculatorAPI
@@ -29,7 +30,7 @@ namespace NormativeCalculatorAPI
             services.RegisterAutoMapperConfiguration(Configuration);
             services.RegisterCookieConfiguration(Configuration);
             services.RegisterIdentityConfiguration(Configuration);
-
+      
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -43,7 +44,6 @@ namespace NormativeCalculatorAPI
             }
 
             app.UseHttpsRedirection();
-         
             app.UseRouting();
 
             app.UseCors(x => x

@@ -13,6 +13,7 @@ namespace NormativeCalculator.API.Extensions
             services.AddScoped<IRecipeService, RecipeService>();
             services.AddScoped<IIngredientService, IngredientService>();
             services.AddScoped<IReportService, ReportService>();
+            services.AddScoped<IUserService, UserService>();
 
             return services;
         }

@@ -9,7 +9,6 @@ using System.Threading.Tasks;
 
 namespace NormativeCalculator.Services
 {
-
     public interface IRecipeCategoryService
     {
         Task<PaginationResponse<List<GetRecipeCategoriesResponse>>> GetRecipeCategoriesAsync(int skip, CancellationToken cancellationToken);

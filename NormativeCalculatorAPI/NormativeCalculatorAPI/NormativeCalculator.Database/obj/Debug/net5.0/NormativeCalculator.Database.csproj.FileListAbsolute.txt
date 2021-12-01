@@ -71,4 +71,3 @@ C:\Users\Nadija\Desktop\jap task 2\JAP_Task_2\NormativeCalculatorAPI\NormativeCa
 C:\Users\Nadija\Desktop\jap task 2\JAP_Task_2\NormativeCalculatorAPI\NormativeCalculatorAPI\NormativeCalculator.Database\obj\Debug\net5.0\ref\NormativeCalculator.Database.dll
 C:\Users\Nadija\Desktop\jap task 2\JAP_Task_2\NormativeCalculatorAPI\NormativeCalculatorAPI\NormativeCalculator.Database\obj\Debug\net5.0\NormativeCalculator.Database.pdb
 C:\Users\Nadija\Desktop\jap task 2\JAP_Task_2\NormativeCalculatorAPI\NormativeCalculatorAPI\NormativeCalculator.Database\obj\Debug\net5.0\NormativeCalculator.Database.genruntimeconfig.cache
-C:\Users\Nadija\Desktop\jap task 2\JAP_Task_2\NormativeCalculatorAPI\NormativeCalculatorAPI\NormativeCalculator.Database\obj\Debug\net5.0\NormativeCalculator.Database.csproj.CopyComplete

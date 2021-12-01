@@ -11,7 +11,7 @@ namespace NormativeCalculator.Core.Models.Request
 
         public string Description { get; set; }
 
-        public DateTime Created { get; set; }
+        public DateTime CreatedAt { get; set; }
 
         public int RecipeCategory_Id { get; set; }
 
@@ -19,8 +19,6 @@ namespace NormativeCalculator.Core.Models.Request
 
         public string UserId { get; set; }
 
-
-        //public List<int> Ingredients { get; set; }
         public List<RecipeIngredient> Ingredients { get; set; }
 
 

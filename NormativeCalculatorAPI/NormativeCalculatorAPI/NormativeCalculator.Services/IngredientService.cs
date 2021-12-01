@@ -13,8 +13,8 @@ namespace NormativeCalculator.Services
 {
     public interface IIngredientService
     {
-       Task<List<GetIngredientsResponse>> GetIngredientsAsync(CancellationToken cancellationToken);
-       Task<GetIngredientsResponse> InsertIngredientAsync(AddIngredientRequest request, CancellationToken cancellationToken);
+        Task<List<GetIngredientsResponse>> GetIngredientsAsync(CancellationToken cancellationToken = default);
+        Task<GetIngredientsResponse> InsertIngredientAsync(AddIngredientRequest request, CancellationToken cancellationToken = default);
     }
 
     public class IngredientService : IIngredientService
@@ -34,14 +34,14 @@ namespace NormativeCalculator.Services
             return _mapper.Map<List<GetIngredientsResponse>>(list);
         }
 
-        public async Task<GetIngredientsResponse> InsertIngredientAsync(AddIngredientRequest request, CancellationToken cancellationToken)
+        public async Task<GetIngredientsResponse> InsertIngredientAsync(AddIngredientRequest request, CancellationToken cancellationToken = default)
         {
 
             var entity = _mapper.Map<Ingredient>(request);
             entity.CreatedAt = DateTime.Now;
             entity.IsDeleted = false;
             _context.Ingredients.Add(entity);
-            await _context.SaveChangesAsync();
+            await _context.SaveChangesAsync(cancellationToken);
 
             return _mapper.Map<GetIngredientsResponse>(entity);
         }
