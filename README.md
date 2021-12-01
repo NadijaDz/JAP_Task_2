@@ -1,4 +1,4 @@
-# Jap task 1
+# Jap task 2
 
 Usage Normative Calculator Application
 
@@ -38,4 +38,7 @@ Application immediately calculated all entered value for ingredient and show how
 -This application can be improved with:
  1. Using middleware for error handling on backend 
  2. Using http interceptors on frontend 
-
+ 
+ #UPDATE 
+1. Using middleware for error handling on backend  - ADDED
+2. Using http interceptors on frontend - ADDED
