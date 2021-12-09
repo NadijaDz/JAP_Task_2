@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Yb/apxjZ6VMbFIlK8XYVAIQjvw7Ljo1OdZhDKuneUAe3ZzNjNpHFyDu/q2i9vOBP4YXUHBc4ZpzOtXv50KaOw==",
+  "dgSpecHash": "1Elr1ZpZ0giYLtqRcqzD6r2VgUnEL7utOpy29T4vj2SO5ZArDNokoiYiOkK2d94DpNN+5IBF4w46QCoI11xSyA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Nadija\\Desktop\\jap task 2\\JAP_Task_2\\NormativeCalculatorAPI\\NormativeCalculatorAPI\\NormativeCalculatorAPI\\NormativeCalculator.API.csproj",
+  "projectFilePath": "C:\\Users\\Nadija\\Desktop\\backup2 jap  task 2\\NormativeCalculatorAPI\\NormativeCalculatorAPI\\NormativeCalculatorAPI\\NormativeCalculator.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nadija\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Nadija\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
